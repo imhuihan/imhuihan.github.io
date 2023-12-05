@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: "Research"
-permalink: https://imhuihan.github.io/research
+permalink: /research
 ---
 
 Price Discrimination and Adverse Selection in the U.S. Mortgage Market
