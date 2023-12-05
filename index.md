@@ -14,6 +14,8 @@ Contact Information:
 Email: hhzhang@bu.edu
 
 
+<b>Research Projects<b>
 
+<p><em>Price Discrimination and Adverse Selection in the U.S. Mortgage Market</em></p>
 
 
