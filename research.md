@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Research"
 permalink: https://imhuihan.github.io/research
 ---
