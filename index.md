@@ -18,5 +18,7 @@ Email: hhzhang@bu.edu
 
 <p><em>Price Discrimination and Adverse Selection in the U.S. Mortgage Market</em></p>
 
-<p>I document substantial price dispersion in the US mortgage market, with each given lender charging observably similar borrowers different rates. The welfare effects of conditional price dispersion are theoretically ambiguous: while individualized pricing can enhance competition and thus lower equilibrium prices, it may also harm certain consumers who are price discriminated against. To explain this conditional price dispersion, I build and estimate a structural model that features borrowers who choose a lender to finance a house, differentiated lenders who learn risk types about the borrowers, and flexible correlation between price signals, borrower shocks, and cost shocks. A novel component of the model is the way it captures adverse selection through the correlation between demand cost shocks and hence incorporating the interaction between price discrimination and adverse selection. With the model, I structurally decompose the conditional price dispersion into risk-based adjustments and non-risk-based price discrimination. I simulate equilibrium market outcomes under various counterfactual scenarios including varying the extent of price dispersion and information asymmetry. Preliminary results suggest that without information asymmetry, consumers may benefit from a certain degree of individualized pricing because it drives down equilibrium prices through competition. The effect is heterogeneous across income groups with the low- and moderate-income group benefiting more.
-</p>
+<p><em> Cross-subsidies through Loan Guarantee: A Study of Shadow Bank Lending in the U.S. Mortgage Market</em></p>
+
+<p><em>A Retrospective Analysis of U.S. Bank Mergers (with Tim Lee)</em></p>
+
