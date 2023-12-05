@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Research](./research.md)
+[ <font size="+2">Research</font>](./research.md)
 
 Hello! I am a Ph.D. candidate in Economics at Boston University. My research interets are in empirical industrial organization and finance. 
 
