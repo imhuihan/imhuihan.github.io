@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
+
+[ <font size="+2">Research</font>](./research.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
 I am a Ph.D. candidate in Economics at Boston University. My research field falls in empirical industrial organization and household finance. My current projects make use of micro-data and employ structural techniques to quantitatively study the industrial organization of the US mortgage market. I hold both a BSc and MSc in Econometrics and Mathematical Economics from the London School of Economics.
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.

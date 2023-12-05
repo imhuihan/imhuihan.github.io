@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[ <font size="+2">Research</font>](./research.md)
+
 
 Hello! I am a Ph.D. candidate in Economics at Boston University. My research interets are in empirical industrial organization and finance. 
 
@@ -13,4 +13,6 @@ I hold both MSc and BSc degrees in Econometrics and Mathematical Economics from 
 Email: hhzhang@bu.edu
 
 [CV](https://drive.google.com/file/d/1iFrYfe3i19xgL40cqhVtipmHF_m-gVOK/view?usp=sharing) and [resume](https://drive.google.com/file/d/18WSmE6mB5wZansjW8Lk3hEbgReWxGD7U/view?usp=sharing) here.
+
+A summary of my research projects can be found [here](./research.md).
 
