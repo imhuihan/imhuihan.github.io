@@ -1,25 +1,13 @@
 ---
 layout: default
 ---
+[CV](https://drive.google.com/file/d/1iFrYfe3i19xgL40cqhVtipmHF_m-gVOK/view?usp=sharing)  [Resume](https://drive.google.com/file/d/18WSmE6mB5wZansjW8Lk3hEbgReWxGD7U/view?usp=sharing)  
+[Research](./research.md)
+
 I am a Ph.D. candidate in Economics at Boston University. My research field falls in empirical industrial organization and household finance. My current projects make use of micro-data and employ structural techniques to quantitatively study the industrial organization of the US mortgage market. I hold both a BSc and MSc in Econometrics and Mathematical Economics from the London School of Economics.
-
-
-[CV](https://drive.google.com/file/d/1iFrYfe3i19xgL40cqhVtipmHF_m-gVOK/view?usp=sharing)
-
-
-[Resume](https://drive.google.com/file/d/18WSmE6mB5wZansjW8Lk3hEbgReWxGD7U/view?usp=sharing)
 
 Contact Information:  
 
 Email: hhzhang@bu.edu
-
-[Research](./research.md)
-<b>Research Projects<b>
-
-<p><em>Price Discrimination and Adverse Selection in the U.S. Mortgage Market</em></p>
-
-<p><em> Cross-subsidies through Loan Guarantee: A Study of Shadow Bank Lending in the U.S. Mortgage Market</em></p>
-
-<p><em>A Retrospective Analysis of U.S. Bank Mergers (with Tim Lee)</em></p>
 
 
