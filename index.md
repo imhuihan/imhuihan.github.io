@@ -12,5 +12,5 @@ I hold both MSc and BSc degrees in Econometrics and Mathematical Economics from 
 
 Email: hhzhang@bu.edu
 
-Curriculum Vitae: [CV](https://drive.google.com/file/d/1iFrYfe3i19xgL40cqhVtipmHF_m-gVOK/view?usp=sharing) and [resume](https://drive.google.com/file/d/18WSmE6mB5wZansjW8Lk3hEbgReWxGD7U/view?usp=sharing) here.
+[CV](https://drive.google.com/file/d/1iFrYfe3i19xgL40cqhVtipmHF_m-gVOK/view?usp=sharing) and [resume](https://drive.google.com/file/d/18WSmE6mB5wZansjW8Lk3hEbgReWxGD7U/view?usp=sharing) here.
 
