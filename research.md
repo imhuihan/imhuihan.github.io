@@ -2,7 +2,6 @@
 layout: page
 title: "Research"
 permalink: /research
-main_nav: true
 ---
 
 <p style="width: 700px;"> <b>Price Discrimination and Adverse Selection in the U.S. Mortgage Market</b></p>
