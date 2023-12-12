@@ -18,7 +18,9 @@ pagination:
 
 
 <div>
-![alt text]({{ site.baseurl }}/assets/Photo.jpg "Profile Picture"){:.profile}
+  {% if site.logo %}
+  <img src="{{site.logo | relative_url}}" alt="Logo" style="width:500px;height:600px;"/>
+{% endif %}
 
   <span> Hello! I am a Ph.D. candidate in Economics at <a href = "https://www.bu.edu/econ/" >Boston University</a>. 
     My research interets are in industrial organization and household finance. 
