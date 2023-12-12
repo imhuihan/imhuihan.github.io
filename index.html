@@ -19,20 +19,35 @@ pagination:
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adjust Image Size</title>
   <style>
+      /* Optional: Add some basic styling to control layout */
+      .container {
+          display: flex;
+          align-items: center;
+      }
       img {
-          max-width: 100%; /* Ensures the image doesn't exceed its natural size */
-          height: auto;    /* Maintains the image's aspect ratio */
-          width: 500px;     /* Adjust the width as needed */
+          max-width: 100%;
+          margin-right: 20px; /* Adjust margin as needed */
       }
   </style>
 </head>
 <body>
-  <img src="your-image.jpg" alt="Image Description">
-  <p>Your text goes here.</p>
+  <div class="container">
+      <img src="{{ site.baseurl }}/assets/Photo.jpg" alt="alt text"  style="width:600px;height:600px;">
+      <p>Hello! I am a Ph.D. candidate in Economics at <a href = "https://www.bu.edu/econ/" >Boston University</a>. 
+        My research interets are in industrial organization and household finance. 
+    <br><br>
+         I make use of micro-data and employ structural techniques to quantitatively study the welfare implications of policies in the financial markets. 
+          In my current research, I use novel models to study price dispersion and information asymmetry in the US mortgage market. 
+    <br> <br> 
+        I hold both MSc and BSc in Econometrics and Mathematical Economics from <a href = "https://www.lse.ac.uk/economics">the London School of Economics and Political Science </a>.
+     <br><br> 
+      Email: hhzhang@bu.edu 
+      <br><br>
+    <a href = "https://drive.google.com/file/d/1iFrYfe3i19xgL40cqhVtipmHF_m-gVOK/view?usp=sharing">CV</a> and 
+    <a href = "https://drive.google.com/file/d/18WSmE6mB5wZansjW8Lk3hEbgReWxGD7U/view?usp=sharing">Resume</a> here.</p>
+  </div>
 </body>
-
 
 
 
