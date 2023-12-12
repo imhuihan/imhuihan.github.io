@@ -61,8 +61,3 @@ A summary of my <b>research projects</b> can be found [here](./research.md).
 		{% endif %}
 	</p>
 </nav>
-
-</div>
-</div>
-
-
