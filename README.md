@@ -1,113 +1,116 @@
-[**中文**](./README.zh.md)
+# The Minimal theme
 
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="./.github/media/sharing.png" alt="Hugo Blox Builder"></a></p>
+[![.github/workflows/ci.yaml](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml/badge.svg)](https://github.com/pages-themes/minimal/actions/workflows/ci.yaml) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-minimal.svg)](https://badge.fury.io/rb/jekyll-theme-minimal)
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/gcushen?label=%E2%9D%A4%EF%B8%8F%20sponsor&style=for-the-badge)](https://github.com/sponsors/gcushen)
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter&style=for-the-badge)](https://twitter.com/GetResearchDev)
-[![GitHub followers](https://img.shields.io/github/followers/gcushen?label=Follow%20on%20GH&style=for-the-badge)](https://github.com/gcushen)
+*Minimal is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/minimal), or even [use it today](#usage).*
 
-# [Hugo Blox Builder](https://hugoblox.com): easy, all-in-one website builder
+![Thumbnail of Minimal](thumbnail.png)
 
-### Join 750,000+ Sites. No Code. Easily Create Future-Proof Websites ✏️ 📰 🚀
+## Usage
 
-🔥 **1. Create _any_ kind of website for free with [Hugo](https://gohugo.io)-powered blocks** - from landing pages, knowledge bases, and courses to professional resumés, conferences, and tech blogs
+To use the Minimal theme:
 
-🎨 **2. Personalize** a beautiful starter template with **50+ light/dark color themes, language packs, and blocks**
+1. Add the following to your site's `_config.yml`:
 
-🛋 **3. Optionally, write from your sofa or on the go with the integrated open source Content Management System (CMS) based on [Decap CMS](https://docs.hugoblox.com/getting-started/cms/decap/)**
+    ```yml
+    remote_theme: pages-themes/minimal@v0.2.0
+    plugins:
+    - jekyll-remote-theme # add this line to the plugins list if you already have one
+    ```
 
-<p style="text-align: center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="./.github/media/write-from-phone.gif" alt="Hugo Blox Builder CMS"></a></p>
+2. Optionally, if you'd like to preview your site on your computer, add the following to your site's `Gemfile`:
 
-[Check out the latest **demos**](https://hugoblox.com/templates/) of what you'll get in less than 60 seconds, or [get **inspired**](https://hugoblox.com/creators/) by other creators.
+    ```ruby
+    gem "github-pages", group: :jekyll_plugins
+    ```
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 🙋‍♀️ **Have a question?**
-  - **Chat with us now on [Discord](https://discord.gg/z8wNYzb)** or explore the [Troubleshooting Guide](https://docs.hugoblox.com/reference/troubleshooting/) and [Q&A Forum](https://github.com/HugoBlox/hugo-blox-builder/discussions)
-  - _Also, check out [Hugo Forum](https://discourse.gohugo.io) for Hugo Qs and [Netlify Forum](https://answers.netlify.com/) for Netlify Qs_
-- 🐦 Share your Hugo Blox Builder site with the community on Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
-- 🚀 [Contribute improvements](CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
+## Customizing
 
-## 💙 We ask you, humbly, to support this open source movement
+### Configuration variables
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder website builder and themes 🐧
+Minimal will respect the following variables, if set in your site's `_config.yml`:
 
-We're an **open source and open science movement** that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way 🤦🏻‍♀️
+```yml
+title: [The title of your site]
+description: [A short description of your site's purpose]
+```
 
-### [😍️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive templates, widgets, and tutorials_](https://github.com/sponsors/gcushen)
+Additionally, you may choose to set the following optional variables:
 
-### Business Sponsors
+```yml
+show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
+google_analytics: [Your Google Analytics tracking ID]
+```
 
-<div style="display: grid; column-gap: 50px; grid-template-columns: repeat(3, 1fr);">
-  <div style="display: flex; align-items: center;">
-    <a href="https://www.netlify.com/" target="_blank"><img src=".github/media/sponsors/netlify.svg" alt="" height="40" width="147" style="display: inline-block;"></a>
-  </div>
-  <div>
-    <a href="https://github.com/sponsors/gcushen"><img src=".github/media/sponsors/your-logo-here.png" alt="" style="display: inline-block;"></a>
-  </div>
-</div>
+### Stylesheet
 
-## Starter Templates
+If you'd like to add your own custom styles:
 
-Hugo Blox Builder is a **no-code** framework for creating _any_ kind of website using **widgets**. Each site is 100% customizable to **make it your own**!
+1. Create a file called `/assets/css/style.scss` in your site
+2. Add the following content to the top of the file, exactly as shown:
+    ```scss
+    ---
+    ---
 
-Choose from one of the starter templates to easily get started:
+    @import "{{ site.theme }}";
+    ```
+3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
 
-[![Writing technical content](./.github/media/starters.webp)](https://hugoblox.com/templates/)
+*Note: If you'd like to change the theme's Sass variables, you must set new values before the `@import` line in your stylesheet.*
 
-## The Future of Technical Content Writing
+### Layouts
 
-**Write rich, future-proof content** using standardized Markdown along with bundled extensions for math and diagrams. Edit in the open source CMS or via an editor such as the online GitHub Editor, Jupyter Notebook, or RStudio! [Learn more](https://docs.hugoblox.com/reference/markdown/)
+If you'd like to change the theme's HTML layout:
 
-[![Writing technical content](https://hugoblox.com/uploads/readmes/writing-technical-content.gif)](https://academic-demo.netlify.app/post/writing-technical-content/)
+1. For some changes such as a custom `favicon`, you can add custom files in your local `_includes` folder. The files [provided with the theme](https://github.com/pages-themes/minimal/tree/master/_includes) provide a starting point and are included by the [original layout template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html).
+2. For more extensive changes, [copy the original template](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+3. Create a file called `/_layouts/default.html` in your site
+4. Paste the default layout content copied in the first step
+5. Customize the layout as you'd like
 
-## Features
+### Customizing Google Analytics code
 
-[![Screenshot](./.github/media/academic.png)](https://hugoblox.com/templates/)
+Google has released several iterations to their Google Analytics code over the years since this theme was first created. If you would like to take advantage of the latest code, paste it into `_includes/head-custom-google-analytics.html` in your Jekyll site.
 
-**Key features:**
+### Overriding GitHub-generated URLs
 
-- **Page builder** - Create _anything_ with [**blocks**](https://docs.hugoblox.com/getting-started/page-builder/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/rstudio/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/#appearance)
-- **Display Code and Math** - Code highlighting and [LaTeX math](https://docs.hugoblox.com/reference/markdown/#math) supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+Templates often rely on URLs supplied by GitHub such as links to your repository or links to download your project. If you'd like to override one or more default URLs:
 
-## Themes
+1. Look at [the template source](https://github.com/pages-themes/minimal/blob/master/_layouts/default.html) to determine the name of the variable. It will be in the form of `{{ site.github.zip_url }}`.
+2. Specify the URL that you'd like the template to use in your site's `_config.yml`. For example, if the variable was `site.github.url`, you'd add the following:
+    ```yml
+    github:
+      zip_url: http://example.com/download.zip
+      another_url: another value
+    ```
+3. When your site is built, Jekyll will use the URL you specified, rather than the default one provided by GitHub.
 
-Hugo Blox Builder comes with **automatic day (light) and night (dark) mode** built-in. Alternatively, click the moon icon in the top right of one of the [Demos](https://hugoblox.com/templates/) to set your preferred mode!
+*Note: You must remove the `site.` prefix, and each variable name (after the `github.`) should be indent with two space below `github:`.*
 
-Choose a stunning theme for your site and [customize it](https://docs.hugoblox.com/getting-started/customize/#custom-theme) to your liking:
+For more information, see [the Jekyll variables documentation](https://jekyllrb.com/docs/variables/).
 
-[![Themes](./.github/media/themes.png)](https://hugoblox.com/templates/)
+## Roadmap
 
-[Browse more templates and themes...](https://hugoblox.com/templates/)
+See the [open issues](https://github.com/pages-themes/minimal/issues) for a list of proposed features (and known issues).
 
-## Ecosystem
+## Project philosophy
 
-- [**Academic File Converter**](https://github.com/GetRD/academic-file-converter): Automatically import academic publications from BibTeX to Markdown files
-- [**Awesome Hugo**](https://github.com/HugoBlox/awesome-hugo): Scripts to help migrate content to new versions of Hugo
+The Minimal theme is intended to make it quick and easy for GitHub Pages users to create their first (or 100th) website. The theme should meet the vast majority of users' needs out of the box, erring on the side of simplicity rather than flexibility, and provide users the opportunity to opt-in to additional complexity if they have specific needs or wish to further customize their experience (such as adding custom CSS or modifying the default layout). It should also look great, but that goes without saying.
 
-## Join the community
+## Contributing
 
-Feel free to [_star_ the project on Github](https://github.com/HugoBlox/hugo-blox-builder), [join the community](https://discord.gg/z8wNYzb) on Discord, and follow [@GetResearchDev](https://twitter.com/GetResearchDev) on Twitter to be the first to hear about new features.
+Interested in contributing to Minimal? We'd love your help. Minimal is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
 
-## License
+### Previewing the theme locally
 
-Copyright 2016-present [George Cushen](https://georgecushen.com).
+If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-The [Hugo Blox Builder](https://github.com/HugoBlox/hugo-blox-builder/) repository is released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
+1. Clone down the theme's repository (`git clone https://github.com/pages-themes/minimal`)
+2. `cd` into the theme's directory
+3. Run `script/bootstrap` to install the necessary dependencies
+4. Run `bundle exec jekyll serve` to start the preview server
+5. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
+
+### Running tests
+
+The theme contains a minimal test suite, to ensure a site with the theme would build successfully. To run the tests, simply run `script/cibuild`. You'll need to run `script/bootstrap` once before the test script will work.
