@@ -8,7 +8,7 @@ Hello! I am a Ph.D. candidate in Economics at [Boston University](https://www.bu
 
 I make use of micro-data and employ structural techniques to quantitatively study the welfare implications of policies in the financial markets. In my current research, I use novel models to study price dispersion and information asymmetry in the US mortgage market. 
 
-I hold both [MSc](https://www.lse.ac.uk/study-at-lse/Graduate/Degree-programmes-2024/MSc-Econometrics-and-Mathematical-Economics) and [BSc](https://www.lse.ac.uk/study-at-lse/Undergraduate/degree-programmes-2024/BSc-Econometrics-and-Mathematical-Economics) degrees in Econometrics and Mathematical Economics from [the London School of Economics and Political Science](https://www.lse.ac.uk/economics).
+I hold both [MSc](https://www.lse.ac.uk/study-at-lse/Graduate/Degree-programmes-2024/MSc-Econometrics-and-Mathematical-Economics) and [BSc in Econometrics and Mathematical Economics](https://www.lse.ac.uk/study-at-lse/Undergraduate/degree-programmes-2024/BSc-Econometrics-and-Mathematical-Economics) from [the London School of Economics and Political Science](https://www.lse.ac.uk/economics).
 
 Email: hhzhang@bu.edu
 
