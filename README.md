@@ -1,134 +1,249 @@
-<div align="center">
-  <br>
-  <img src="/images/reverie-text.png" alt="Reverie" width="200"/>
-  <br>  
-  <p align="center">
-    <i>Support my work via <a href="https://paypal.me/AmitMerchant">Paypal</a></i>
-    •
-    <i>Would you be interested in <a href="https://www.producthunt.com/upcoming/reverie-pro">Reverie Pro</a>?</i>
-  </p>
-</div>
+# Centrarium [![Circle CI](https://circleci.com/gh/bencentra/centrarium/tree/master.svg?style=svg)](https://circleci.com/gh/bencentra/centrarium/tree/master)
 
----
+A simple yet classy theme for your Jekyll website or blog. Customizable to fit your style or brand.
 
-Reverie is a [Jekyll](https://jekyllrb.com/)-powered theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for my blog.
+Built with these awesome libraries:
+* [Bourbon][bourbon]
+* [Neat][neat]
+* [Bitters][bitters]
+* [Refills][refills]
+* [Font Awesome][fontawesome]
+* [HighlightJS][highlightjs]
+* [Lightbox][lightbox]
 
-> [Theme demo](https://reverie.pages.dev/)
+Here's a [demo](http://bencentra.com/centrarium). It also works on [GitHub Pages](http://bencentra.github.io/centrarium/). I also use it for [my own website][bencentra].
 
-This is a plug-and-play Jekyll theme best suited to use on [GitHub Pages](https://pages.github.com) (or [Cloudflare Pages](https://pages.cloudflare.com/) if you want to have your repository private) without even setting up a local environment.
+Inspired by dirkfabisch's [Mediator](https://github.com/dirkfabisch/mediator) theme, which I previously used for my own blog, as well as [Type Theme](http://rohanchandra.github.io/type-theme/).
 
-![](/images/reverie-demo.png)
+Cover image by Chris M. Morris ([flickr][cover]).
 
-|  Responsiveness            |  Search | Categories |
-|---------------------|----------------------|----------------------|
-|![Responsiveness](/images/mobile-demo.png) | ![search](/images/search.png) | ![categories](/images/categories.png) |
+## Features
 
-# Table of Contents
-  - [Features overview](#features-overview)
-  - [Using Reverie on GitHub Pages](#using-reverie-on-github-pages)
-    - [1. Fork Reverie to your User Repository](#1-fork-reverie-to-your-user-repository)
-    - [2. Customize and view your site](#2-customize-and-view-your-site)
-    - [3. Publish your first blog post](#3-publish-your-first-blog-post)
-  - [Using Categories in Reverie](#using-categories-in-reverie)
-  - [Pagination](#pagination)
-  - [RSS](#rss)
-  - [Sitemap](#sitemap)
-  - [Emailware](#emailware)
-  - [The name?](#the-name)
-  - [License](#license)
+This theme comes with a number of features, including:
+* Easily customizable fonts and colors
+* Cover images for your homepage and blog posts
+* Pagination enabled by default
+* Archiving of posts by categories and tags
+* Syntax highlighting for code snippets
+* Disqus integration for post comments
+* Lightbox for viewing full-screen photos and albums
+* Google Analytics with custom page name tracking
+* Social media integration (Twitter, Facebook, LinkedIn, GitHub, and more)
 
-## Features overview
+## Installation
 
-- Clean and minimal design
-- Single column post layout
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies come built-in
-- Markdown blogging
-- Supports [Pullquotes](https://reverie-jekyll.netlify.app/pullquotes/)
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Social media icons
-- Google Analytics integration
-- Supports [Google Analytics 4](https://support.google.com/analytics/answer/10089681?hl=en)
-- Fuzzy search across blog posts
-- Blog with pagination
-- Categorize posts out-of-the box
-- RSS Feed
-- Built-in sitemap
+If you're just getting started with Jekyll, you can use this repository as a starting point for your own site. Just [download this project](https://github.com/bencentra/centrarium/archive/master.zip) and add all the files to your project. Add your blog posts to the `posts/` directory, and create your pages with the proper Jekyll front matter (see `posts.html` for an example).
 
-> <p><i>Like this theme?</i> If so, consider donating a small amount that will help my maintaining this project further.<p>
-> You can support me via <a href="https://paypal.me/AmitMerchant">Paypal</a>.
+If your site already uses Jekyll, follow these steps:
 
-## Using Reverie on GitHub Pages
+1. Replace the files in the `_includes`, `_layouts`, and `_sass` directories with those from this project.
+2. Replace your `index.html` with the one from this project, and copy over the `posts.html` file as well.
+3. Copy the contents of the `_config.yml` from this project in to yours, and update the necessary information.
 
-Setting up Reverie on GitHub Pages is as simple as it gets!
-
-### 1. Fork Reverie to your User Repository
-
-Fork this repository, then rename the repository to `yourgithubusername.github.io`.
-
-Alternatively, you can click the [`Use this template`](https://github.com/amitmerchant1990/reverie/generate) button if you want to create a repository with a clean commit history which will use Reverie as a template.
-
-Your Jekyll blog will often be viewable immediately at <https://yourgithubusername.github.io> (if it's not, you can often force it to build by completing step 2).
-
-### 2. Customize and view your site
-
-Enter your site name, description, avatar and many other options by editing the `_config.yml` file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here.
-
-Making a change to `_config.yml` (or any file in your repository) will force GitHub Pages to rebuild your site with Jekyll. Your rebuilt site will be viewable a few seconds later at <https://yourgithubusername.github.io> - if not, give it ten minutes as GitHub suggests and it'll appear soon.
-
-### 3. Publish your first blog post
-
-Delete all files from `_posts`directory and create a new file called `/_posts/2019-2-13-Hello-World.md` to publish your first blog post. That's all you need to do to publish your first blog post! This [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) might come in handy while writing the posts.
-
-> You can add additional posts in the browser on GitHub.com too! Just hit the <kbd>Create new file</kbd> button in `/_posts/` to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
-
-## Using Categories in Reverie
-
-You can categorize your content based on `categories` in Reverie. For this, you just need to add `categories` in front matter like below:
-
-For adding single category:
-
-```md
-categories: JavaScript
+Don't forget to install Jekyll and other dependencies:
+```bash
+# cd into project directory
+cd centrarium
+# install Bundler if you don't have it already
+gem install bundler
+# install jekyll, jekyll-archives, jekyll-sitemap, and jekyll-paginate
+bundle install
 ```
 
-For adding multiple categories:
+## Stackbit Deploy
 
-```md
-categories: [PHP, Laravel]
-```
+This theme is ready to import into Stackbit. This theme can be deployed to Netlify and you can connect any headless CMS including Forestry, NetlifyCMS, DatoCMS or Contentful. 
 
-The categorized content can be shown over this URL: <https://yourgithubusername.github.io/categories/>
+[![Create with Stackbit](https://assets.stackbit.com/badge/create-with-stackbit.svg)](https://app.stackbit.com/create?theme=https://github.com/bencentra/centrarium)
 
-## Pagination
+## Updating Header and Footer Links
 
-Pagination of posts in Reverie works out-of-the-box. You only need to specify the number of posts you want on a single page in `_config.yml` and Reverie will take care of the rest.
+Links in the header and footer are auto-generated. Links will be made for all files marked `category: page`, that have a title, and have the custom `main_nav` front-matter variable set to `true`. You can modify the rules for link generation in `_layouts/nav_links.html`.
+
+## Updating Styles
+
+If you want change the CSS of the theme, you'll probably want to check out these files in the `_sass/` directory:
+
+* `base/_variables.scss`: Common values found throughout the project, including base font size, font families, colors, and more.
+* `base/_typography.scss`: Base typography values for the site (see `typography.html` for a demonstration)
+* `_layout.scss`: The primary styles for the layout and design of the theme.
+
+### Important Variables
+
+Here are the important variables from `base/_variables.scss` you can tweak to customize the theme to your liking:
+
+* `$base-font-family`: The font-family of the body text. Make sure to `@import` any new fonts!
+* `$heading-font-family`: The font-family of the headers. Make sure to `@import` any new fonts!
+* `$base-font-size`: The base font-size. Defaults to $em-base from Bourbon (`bourbon/settings/_px-to-em.scss`).
+* `$base-font-color`: The color for the body text.
+* `$action-color`: The color for links in the body text.
+* `$highlight-color`: The color for the footer and page headers (when no cover image provided).
+
+## Configuration
+
+All configuration options can be found in `_config.yml`.
+
+### Site Settings
+
+* __title:__ The title for your site. Displayed in the navigation menu, the `index.html` header, and the footer.
+* __subtitle:__ The subtitle of your site. Displayed in the `index.html` header.
+* __email:__ Your email address, displayed with the Contact info in the footer.
+* __name:__ Your name. _Currently unused._
+* __description:__ The description of your site. Used for search engine results and displayed in the footer.
+* __baseurl:__ The subpath of your site (e.g. /blog/).
+* __url:__ The base hostname and protocol for your site.
+* __cover:__ The relative path to your site's cover image.
+* __logo:__ The relative path to your site's logo. Used in the navigation menu instead of the title if provided.
+
+### Build Settings
+
+* __markdown:__ Markdown parsing engine. Default is kramdown.
+* __inter_post_navigation:__ Whether to render links to the next and previous post on each post.
+
+### Pagination settings
+
+See the documentation for [jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration) for more details.
+
+### Archive Settings
+
+Although this theme comes with a combined, categorized archive (see `posts.html`), you can enable further archive creation thanks to [jekyll-archives][archives]. Support for category and tag archive pages is included, but you can also add your own archive pages for years, months, and days.
+
+To change archive settings, see the __jekyll-archives__ section of `_config.yml`:
 
 ```yml
-paginate: 6
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
 ```
 
-## RSS
+To fully disable the archive, remove the __jekyll-archives__ section AND remove it from the __gems__ list.
 
-Reverie comes with a [RSS feed](https://en.wikipedia.org/wiki/RSS) in-built. The generated RSS Feed of your blog can be found at <https://yourgithubusername.github.io/feed>. You can see the example RSS feed over [here](https://reverie-jekyll.netlify.app/feed.xml).
+__NOTE:__ the Jekyll Archive gem is NOT included with GitHub pages! Disable the archive feature if you intend to deploy your site to GitHub pages. [Here is a guide](http://ixti.net/software/2013/01/28/using-jekyll-plugins-on-github-pages.html) on how you can use the `jekyll archive` gem with GitHub pages. The general gist: compile the Jekyll site locally and then push that compiled site to GitHub.
 
-## Sitemap
+A sitemap is also generated using [jekyll-sitemap][sitemap].
 
-The generated sitemap of your blog can be found at <https://yourgithubusername.github.io/sitemap.xml>. You can see the example sitemap feed over [here](https://reverie-jekyll.netlify.app/sitemap.xml).
+### Syntax Highlighting Settings
 
-## Emailware
-Reverie is an [emailware](https://en.wiktionary.org/wiki/emailware). Meaning, if you liked using this theme or it has helped you in any way, I'd like you send me an email at <bullredeyes@gmail.com> about anything you'd want to say about this software. I'd really appreciate it!
+Inside of a post, you can enable syntax highlighting with the `{% highlight <language> %}` Liquid tag. For example:
 
-## The name?
+```
+{% highlight javascript %}
+function demo(string, times) {
+  for (var i = 0; i < times; i++) {
+    console.log(string);
+  }
+}
+demo("hello, world!", 10);
+{% endhighlight %}
+```
 
-reverie - _a state of being pleasantly lost in one's thoughts; a daydream._<br><sup>/ˈrɛv(ə)ri/</sup> 
+You can change the [HighlightJS theme][highlightjs_theme] in `_config.yml`:
 
+```yml
+highlightjs_theme: "monokai_sublime"
+```
+
+### Disqus Settings
+
+You can enable [Disqus][disqus] comments for you site by including one config option:
+
+* __disqus_shortname:__ Your Disqus username. If the property is set, Disqus comments will be included with your blog posts.
+
+If you want to disable Disqus for only a specific page, add __disqus_disabled: true__ to the page's front matter.
+
+### Google Analytics Settings
+
+You can enable basic [Google Analytics][ga] pageview tracking by including your site's tracking ID:
+
+* __ga_tracking_id__: The Tracking ID for your website. You can find it on your Google Analytics dashboard. If the property is set, Google Analytics will be added to the footer of each page.
+
+### Social Settings
+
+Your personal social network settings are combined with the social sharing options. In the __social__ section of `_config.yml`, include an entry for each network you want to include. For example:
+
+```yml
+social:
+  - name: Twitter                         # Name of the service
+    icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
+    username: TheBenCentra                # (User) Name to display in the footer link
+    url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
+    desc: Follow me on Twitter            # Description to display as link title, etc
+    share: true                           # Include in the "Share" section of posts
+```
+
+### Social Protocols
+
+Using the Open Graph Protocol or Twitter Card metadata, you can automatically set the images and text used when people share your site on Twitter or Facebook. These take a bit of setup, but are well worth it. The relevant fields are at the end of the `_config.yml` file.
+
+Also there is another protocol, the Open Source protocol, for saying where your site is hosted if the source is open. This helps develops more easily see your code if they are interested, or if they have issues. For more, see http://osprotocol.com.
+
+### Category Descriptions
+
+You can enhance the `posts.html` archive page with descriptions of your post categories. See the __descriptions__ section of `_config.yml`:
+
+```yml
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+```
+
+### Custom Page-Specific Javascript
+
+You can add page-specific javascript files by adding them to the top-level `/js` directory and including the filename in the __custom_js__ page's configuration file:
+
+```yml
+# Custom js (for individual pages)
+---
+layout: post
+title:  "Dummy Post"
+date:   2015-04-18 08:43:59
+author: Ben Centra
+categories: Dummy
+custom_js:
+- Popmotion
+- Vue
+---
+```
+
+The `/js/` directory would contain the corresponding files:
+
+```bash
+$ ls js/
+Popmotion.js Vue.js
+```
+
+## Contributing
+
+Want to help make this theme even better? Contributions from the community are welcome!
+
+Please follow these steps:
+
+1. Fork/clone this repository.
+2. Develop (and test!) your changes.
+3. Open a pull request on GitHub. A description and/or screenshot of changes would be appreciated!
+4. I ([Ben Centra](https://github.com/bencentra)) will review and merge the pull request.
 
 ## License
 
-MIT
+MIT. See [LICENSE.MD](https://github.com/bencentra/centrarium/blob/master/LICENSE.md).
+
+[bencentra]: http://bencentra.com
+[bourbon]: http://bourbon.io/
+[neat]: http://neat.bourbon.io/
+[bitters]: http://bitters.bourbon.io/
+[refills]: http://refills.bourbon.io/
+[fontawesome]: http://fortawesome.github.io/Font-Awesome/
+[highlightjs]: https://highlightjs.org/
+[highlightjs_theme]: https://highlightjs.org/static/demo/
+[lightbox]: http://lokeshdhakar.com/projects/lightbox2/
+[cover]: https://www.flickr.com/photos/79666107@N00/3796678503/in/photolist-6MuYfc-61Rtft-8XzPmY-a6Cozm-54eSMs-6oMJmk-aepZQq-9YkPHp-fiAEGE-dVP4Z5-oxPyJP-atKUFJ-9YHWA5-9YF2f2-9YF2gR-9YHVGN-9YHVvs-qZYYQ6-4JqP2i-a2peGy-9YHVUm-9YHVF7-9YHVCL-9YF3NK-cYteMo-aiPmb9-69dtAi-9YF21x-4aWpmn-7SLiUL-77pqVX-8vXbYv-4HGDSH-a2h5P1-8LsZrQ-9aj1ez-auPZ7q-9YHVMd-9YF2bi-9YF23D-8LpWpn-9an6KL-9YHVZL-dqZ3Cz-2GuvnX-9YHWUo-9YHVWd-p5Roh5-i1zTbv-6sYrUT
+[disqus]: https://disqus.com/
+[ga]: http://www.google.com/analytics/
+[archives]: https://github.com/jekyll/jekyll-archives
+[sitemap]: https://github.com/jekyll/jekyll-sitemap
