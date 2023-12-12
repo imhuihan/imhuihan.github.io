@@ -153,7 +153,14 @@ pre code.hljs {
       max-height: 2.5em;
       margin-top: 0.75em;
       padding-right: 1em;
+	  float: left;
+	  margin-right: 10px;
     }
+
+	p {
+		overflow: hidden;
+	}
+	
     span {
     	font-size: 1.25em;
     }
