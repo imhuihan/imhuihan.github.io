@@ -5,7 +5,7 @@ permalink: /about/
 main_nav: true
 ---
 
-![alt text]({{ site.baseurl }}/assets/Photo.jpg "Profile Picture"){:.profile}
+![Photo]({{ site.baseurl }}/logo.png "Profile Picture"){:.profile}
 
 
 Hello! I am a Ph.D. candidate in Economics at [Boston University](https://www.bu.edu/econ/). My research interets are in industrial organization and household finance. 
