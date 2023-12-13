@@ -1,5 +1,12 @@
-source 'https://rubygems.org'
-gem 'jekyll', '<4'
-gem 'jekyll-archives'
-gem 'jekyll-sitemap'
-gem 'jekyll-paginate-v2'
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gemspec
+
+gem "github-pages", group: :jekyll_plugins
+
+group :jekyll_plugins do
+    # ... other gems
+    gem "jekyll-tabs"
+  end
