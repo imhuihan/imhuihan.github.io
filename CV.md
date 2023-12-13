@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "CV"
-permalink: /research
+permalink: /CV
 main_nav: true
 ---
 
