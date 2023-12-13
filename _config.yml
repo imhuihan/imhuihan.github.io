@@ -3,6 +3,7 @@ description: Ph.D. Candidate in Economics at Boston University
 author: Hannah H. Zhang
 avatar: /logo.png
 email: hhzhang@bu.edu
+subscribe: F
 
 plugins:
   - jekyll-seo-tag
