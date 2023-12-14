@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 main_nav: true
 ---
-<h1> Teaching Fellow </h1>
+<h2> Teaching Assistantship</h2>
 <b>Questrom School of Business</b>
 
 - BA833 Business Experimentation and Causal Methods (MBA), Spring 2023
