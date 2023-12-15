@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Research
-permalink: /research/
+title: Research2
+permalink: /research2/
 ---
 
 <p> <b>Price Discrimination and Adverse Selection in the U.S. Mortgage Market</b></p>
