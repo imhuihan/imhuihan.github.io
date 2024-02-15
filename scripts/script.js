@@ -1,4 +1,4 @@
-document.getElementById("toggleButton").addEventListener("click", function() {
+document.getElementById("p1").addEventListener("click", function() {
     var paragraph = document.getElementById("paragraph");
     if (paragraph.style.display === "none") {
       paragraph.style.display = "block";
@@ -6,3 +6,6 @@ document.getElementById("toggleButton").addEventListener("click", function() {
       paragraph.style.display = "none";
     }
   });
+
+
+  
