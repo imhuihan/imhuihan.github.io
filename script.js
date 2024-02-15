@@ -1,5 +1,5 @@
 document.getElementById("p1").addEventListener("click", function() {
-    var paragraph = document.getElementById("paragraph");
+    var paragraph = document.getElementById("paragraph1");
     if (paragraph.style.display === "none") {
       paragraph.style.display = "block";
     } else {
