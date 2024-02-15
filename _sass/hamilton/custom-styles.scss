@@ -2,13 +2,13 @@
 
 
 button {
-    background-color: #4CAF50;
-    color: white;
+    color: navy;
     padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+    cursor: pointer; /* Cursor set to pointer */
+    background-color: transparent; /* No background color */
+    border: none; /* No border */
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #f0f0f0; /* Light gray background on hover */
   }
