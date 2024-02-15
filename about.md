@@ -4,10 +4,6 @@ title: About
 permalink: /about/
 main_nav: true
 ---
-
-![Photo]({{ site.baseurl }}/logo.png "Profile Picture"){:.profile}
-
-
 Hello! I am a Ph.D. candidate in Economics at [Boston University](https://www.bu.edu/econ/). My research interets are in industrial organization and household finance. 
 
 I make use of micro-data and employ structural techniques to quantitatively study the welfare implications of policies in the financial markets. In my current research, I use novel models to study price dispersion and information asymmetry in the US mortgage market. 
