@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show/Hide Paragraph</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
 
+  <body>
 <div class="home">
 
   <p>Hello! I am a Ph.D. candidate in Economics at <a href="https://www.bu.edu/econ/">Boston University</a>. 
@@ -16,14 +23,16 @@ layout: default
   </p>
 
   <h2>Research</h2>
-Price Discrimination and Adverse Selection in the U.S. Mortgage Market (draft coming soon)
+Price Discrimination and Adverse Selection in the U.S. Mortgage Market (draft coming soon)<button id="toggleButton">Abstract</button>
+<p id="paragraph" style="display:none;"> I document substantial price dispersion in the US mortgage market, with each given lender charging observably similar borrowers different rates for similar loans. To explain this conditional price dispersion, I estimate a structural model that features borrowers' demand for mortgages and lenders' individualized optimal price decisions. A novel component of the model is the way it captures adverse selection through a flexible correlation between the unobserved determinants of borrowers' demand for mortgages and lenders' costs, allowing for the interaction between price discrimination and adverse selection. I structurally decompose the unexplained price dispersion into cost-based price adjustments and demand-based price discrimination: cost-component accounts for 21.9\%, and demand accounts for 78.1\% of total unexplained dispersion. The counterfactual analysis reveals that without information asymmetry, consumers benefit from the status quo degree of individualized pricing compared to uniform pricing on average because it drives down equilibrium prices. The effect is heterogeneous across income groups with the high-income benefiting more. </p>
+
 <br><br> 
  Discounts through Loan Guarantee: A Study of Shadow Bank Lending in the U.S. Mortgage Market 
  <br><br> 
  Dynamics of Consumer Payment Choice
  <br><br> 
  A Retrospective Analysis of U.S. Bank Mergers (with Tim Lee)
-
+</body>
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
