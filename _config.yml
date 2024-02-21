@@ -4,6 +4,7 @@ author: Hannah Huihan Zhang
 avatar: /logo.png
 email: hhzhang@bu.edu
 subscribe: false
+skin: daylight
 
 plugins:
   - jekyll-seo-tag
