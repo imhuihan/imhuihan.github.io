@@ -7,7 +7,7 @@ main_nav: true
 
 
  <h1>Working Papers</h1>
-<p> <b>[Price Discrimination and Adverse Selection in the U.S. Mortgage Market](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4787954)</b></p>
+<p> <b> <a href = "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4787954"> Price Discrimination and Adverse Selection in the U.S. Mortgage Market</a> [new!]</b></p>
  <p>    I document substantial price dispersion in the U.S. mortgage market, where each given lender charges observably similar borrowers different interest rates for similar loans. To explain the conditional price dispersion, I estimate a structural model that features borrowers' demand for mortgages and lenders' individualized optimal pricing decisions. I find evidence consistent with adverse selection in the form of a positive correlation between the unobserved determinants of borrowers' demand and lenders' costs. Moreover, lenders' ability to learn borrowers' private information from signals and tailor interest rates alleviates the severity of adverse selection. I find that the signals convey more information about lenders' costs rather than borrowers' demand, implying that the conditional price dispersion is explained more by lenders' optimal risk adjustments rather than demand-based price discrimination. I evaluate a counterfactual scenario where lenders must set the same interest rates for the observably same borrowers and loans. As a result, interest rates increase and consumer surplus decreases. 
   The effect is heterogeneous across income groups with higher-income borrowers' interest rates increasing more.  
  </p>
